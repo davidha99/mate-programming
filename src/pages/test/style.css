@@ -56,9 +56,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  }

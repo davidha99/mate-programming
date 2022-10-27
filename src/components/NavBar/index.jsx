@@ -20,9 +20,15 @@ function NavBar() {
 						<Link to="/" className='nav-link'>Home</Link>
 					</Nav.Link>
 					<Nav.Link>
-						<Link to="/tutorial" className='nav-link'>Tutorial</Link>
+						<Link to="/friends" className='nav-link'>Friends</Link>
 					</Nav.Link>
-					<NavDropdown title="Collapse Example" className='nav-link' id="navbarScrollingDropdown">
+					<Nav.Link>
+						<Link to="/scoreboard" className='nav-link'>Scoreboard</Link>
+					</Nav.Link>
+					<Nav.Link>
+						<Link to="/profile" className='nav-link'>Profile</Link>
+					</Nav.Link>
+					{/* <NavDropdown title="Collapse Example" className='nav-link' id="navbarScrollingDropdown">
 						<NavDropdown.Item href="#action3">Action</NavDropdown.Item>
 						<NavDropdown.Item href="#action4">
 							Another action
@@ -31,7 +37,7 @@ function NavBar() {
 						<NavDropdown.Item href="#action5">
 							Something else here
 						</NavDropdown.Item>
-					</NavDropdown>
+					</NavDropdown> */}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
