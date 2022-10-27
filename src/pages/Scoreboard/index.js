@@ -2,13 +2,15 @@ import './style.css';
 import Table from 'react-bootstrap/Table';
 
 export function Scoreboard() {
+
+
   return (
     <Table striped bordered hover size="sm">
       <thead>
         <tr>
-          <th>#</th>
+          <th>Rank #</th>
           <th>First Name</th>
-          <th>Last Name</th>
+          <th>Score</th>
           <th>Username</th>
         </tr>
       </thead>
@@ -16,19 +18,14 @@ export function Scoreboard() {
         <tr>
           <td>1</td>
           <td>Mark</td>
-          <td>Otto</td>
+          <td>300</td>
           <td>@mdo</td>
         </tr>
         <tr>
           <td>2</td>
           <td>Jacob</td>
-          <td>Thornton</td>
+          <td>100</td>
           <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
         </tr>
       </tbody>
     </Table>
