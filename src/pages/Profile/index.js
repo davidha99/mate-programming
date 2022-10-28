@@ -10,7 +10,7 @@ export function Profile() {
   const rank = 100
 
   return (    
-    <div class="center"> 
+    <div className="center"> 
       <Card style={{ width: '40rem' }}>
       <Card.Img  src="img/grand-m.jpeg" />
       <Card.Body>

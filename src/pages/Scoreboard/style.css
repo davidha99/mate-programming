@@ -62,3 +62,15 @@
   width: 60%;
   padding: 10px;
   }
+
+  .table {
+    border-color: #2cb67d;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0px auto;
+    float: none;
+  }
+
+  .table-thead {
+    font-size: large;
+  }

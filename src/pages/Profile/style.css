@@ -62,3 +62,7 @@
   width: 60%;
   padding: 10px;
   }
+
+.list-group-item {
+  background-color: #16161a;
+}

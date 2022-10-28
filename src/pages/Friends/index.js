@@ -1,5 +1,4 @@
 import './style.css';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -7,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 export function Friends() {
   return (
-    <div class="center">
+    <div className="center">
       <Row xs={1} md={3} className="g-4">
         {Array.from({ length: 9 }).map((_, idx) => (
           <Col>

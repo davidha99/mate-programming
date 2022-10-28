@@ -6,9 +6,9 @@ export function HomePage() {
   return (
     <>
     {/* this should be a for loop that displays each each leetcode  */}
-    <div class = "center">
+    <div className= "center">
       <Card style={{ width: '50rem' }}>
-        <Card.Header>Easy</Card.Header>
+        <Card.Header className="easy-card-header">Easy</Card.Header>
         <Card.Body>
           <Card.Title>Two Sum</Card.Title>
           <Card.Text>
@@ -23,8 +23,8 @@ You can return the answer in any order.          </Card.Text>
 
       <br />
     
-      <Card style={{ width: '50rem' }}>
-        <Card.Header>Medium</Card.Header>
+      <Card style={{ width: '50rem' }} className="medium-card">
+        <Card.Header className="medium-card-header">Medium</Card.Header>
         <Card.Body>
           <Card.Title>Lorem Ipsum</Card.Title>
           <Card.Text>
@@ -36,8 +36,8 @@ You can return the answer in any order.          </Card.Text>
 
       <br />
 
-      <Card style={{ width: '50rem' }}>
-        <Card.Header>Hard</Card.Header>
+      <Card style={{ width: '50rem' }} className="hard-card">
+        <Card.Header className="hard-card-header">Hard</Card.Header>
         <Card.Body>
           <Card.Title>Lorem Ipsum</Card.Title>
           <Card.Text>

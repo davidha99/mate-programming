@@ -62,3 +62,28 @@
   width: 60%;
   padding: 10px;
   }
+
+  .card {
+    background-color: #16161a;
+    border-color: #2cb67d;
+  }
+
+  .btn {
+    color: #fffffe;
+    background-color: #7f5af0;
+    border-color: #7f5af0;
+  }
+
+  .card-title {
+    font-size: 1.75rem;
+    color: #fffffe;
+  }
+
+  .card-text {
+    color: #72757e;
+  }
+
+  .card-header {
+    color: #fffffe;
+    background-color: #2cb67d;
+  }
