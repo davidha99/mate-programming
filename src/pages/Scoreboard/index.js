@@ -2,8 +2,9 @@ import './style.css';
 import Table from 'react-bootstrap/Table';
 
 export function Scoreboard() {
+
+
   return (
-    <div className='table-container'>
       <Table striped bordered hover size="sm" className="table table-dark">
         <thead className='table-thead'>
           <tr>
@@ -33,6 +34,5 @@ export function Scoreboard() {
           </tr>
         </tbody>
       </Table>
-    </div>
   );
 }
